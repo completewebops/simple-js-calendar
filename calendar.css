@@ -1,0 +1,60 @@
+#calendar-container {
+      font-family: Arial, sans-serif;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    
+    #month-year {
+      text-align: center;
+    }
+    
+    #calendar {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    #calendar th {
+      background-color: #EEE;
+      font-weight: bold;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    #calendar td {
+      border: 1px solid #DDD;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    #calendar td.today {
+      background-color: #CCC;
+    }
+    .calendar-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    #prev-month,
+    #prev-year {
+      order: 1;
+      margin-right: 10px;
+    }
+    
+    #next-month,
+    #next-year {
+      order: 3;
+      margin-left: 10px;
+    }
+    
+    #prev-month,
+    #next-month {
+      margin-right: auto;
+    }
+    
+    #prev-year,
+    #next-year {
+      margin-left: auto;
+    }
+    
